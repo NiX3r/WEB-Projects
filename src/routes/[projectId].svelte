@@ -1,16 +1,22 @@
-<a href="https://ncodes.eu"><img src="https://d6scj24zvfbbo.cloudfront.net/e3cd589ac11969a06b1927cf04fd305f/200000045-0d7880d78a/700/logo_512x512.png" alt="nCodes" width="5%" height="5%"></a>
 
-<div class=" bg-[#4747477e] filter drop-shadow-md md:drop-shadow-xl rounded-3xl p-10 mt-16 mr-32 ml-32">
-    <div class="flex flex-col my-auto items-center">
+<div class=" bg-[#4747477e] filter drop-shadow-md md:drop-shadow-xl rounded-3xl p-10 mt-16 mr-32 ml-32 mb-16">
+    <div class="grid grid-cols-12 mt-10 gap-6 items-center">
 
-        <p class="text-center text-5xl text-[#7900ff] filter drop-shadow-md md:drop-shadow-xl font-bold">{topic}</p> <br>
-        <div class="bg-[#7900ff] filter drop-shadow-md md:drop-shadow-xl rounded-3xl p-1 mt-1 mr-1 ml-1 w-32"></div>
+        <div class="ml-10 col-span-12 lg:col-span-4">
+            <p class="text-center text-5xl text-[#7900ff] filter drop-shadow-md md:drop-shadow-xl font-bold">{topic}</p> <br>
+            <div class="bg-[#7900ff] filter drop-shadow-md md:drop-shadow-xl rounded-3xl p-1 mt-1 mr-1 ml-20 w-32"></div>
+        </div>
+        <div class="col-span-1 lg:col-span-5"></div>
+        <div class="col-span-12 lg:col-span-2">
+            <a href="https://ncodes.eu"><img src="./assets/big.png" alt="nCodes" class=" hover:opacity-70"></a>
+        </div>
 
     </div>
     <p class=" text-[#f0f0f0] mt-12">{@html readme}</p>
 </div>
 
-<div class=" bg-[#4747477e] filter drop-shadow-md md:drop-shadow-xl rounded-3xl p-10 mt-16 mr-32 ml-32">
+<!--
+<div class=" bg-[#4747477e] filter drop-shadow-md md:drop-shadow-xl rounded-3xl p-10 mt-16 mr-32 ml-32 mb-16">
     <div class="flex flex-col my-auto items-center">
 
         <p class="text-center text-5xl text-[#7900ff] filter drop-shadow-md md:drop-shadow-xl font-bold">Gallery</p> <br>
@@ -19,16 +25,7 @@
     </div>
     <p class=" text-[#f0f0f0] mt-12">insert</p>
 </div>
-
-<div class=" bg-[#4747477e] filter drop-shadow-md md:drop-shadow-xl rounded-3xl p-10 mt-16 mr-32 ml-32">
-    <div class="flex flex-col my-auto items-center">
-
-        <p class="text-center text-5xl text-[#7900ff] filter drop-shadow-md md:drop-shadow-xl font-bold">Links</p> <br>
-        <div class="bg-[#7900ff] filter drop-shadow-md md:drop-shadow-xl rounded-3xl p-1 mt-1 mr-1 ml-1 w-32"></div>
-
-    </div>
-    <p class=" text-[#f0f0f0] mt-12">insert</p>
-</div>
+-->
 
 <script>
 
